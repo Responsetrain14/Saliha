@@ -37,4 +37,5 @@ Tests use Node's built-in `node:test` / `node:assert` and cover only `todos.js`.
 - `.env` (copied from `.env.example`) contains only a fake key and exists so attendees can verify Claude is blocked from reading it. Nothing in the app uses it; don't read or modify it.
 - Permission rules in `.claude/settings.json` are read only at session start; changes need a new session.
 - `training/templates/` holds the finished lab files that attendees copy to the repo root if they fall behind (see the README table). Make lab changes in the root files, not the templates, and keep `training/templates/CLAUDE.md` in sync with this file.
+- `.claude/skills/` holds project skills (`add-task-field`, `adr-writer`; see ADR-003). They name specific files, functions and commands, so update them when those change.
 - `docs/adr/` holds architecture decision records named `ADR-NNN-title.md` with Status/Date, Context, Decision and Consequences sections. Record new architectural decisions there in the same format.
