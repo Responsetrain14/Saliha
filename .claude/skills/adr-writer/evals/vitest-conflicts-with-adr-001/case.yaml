@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vitest-conflicts-with-adr-001
+expected_outcome: |
+  An ADR-004 that recognises the switch conflicts with ADR-001 (no npm packages), handles it as superseding or amending ADR-001 rather than silently contradicting it, and updates CLAUDE.md and training/templates/CLAUDE.md to match.

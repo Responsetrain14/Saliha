@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: due-date-storage
+expected_outcome: |
+  A new docs/adr/ADR-004-<slug>.md in the repo's Status/Date, Context, Decision, Consequences format, Accepted, using only the reasons given, with no invented alternatives or people.

@@ -1,0 +1,4 @@
+schema_version: "1.1"
+name: vague-env-request
+expected_outcome: |
+  Notices the .env read-blocking decision is already recorded in ADR-002 and asks what new decision is meant, instead of writing a duplicate ADR or inventing reasons.
