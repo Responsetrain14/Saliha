@@ -1,0 +1,9 @@
+{
+  "name": "project-builder",
+  "version": "1.0.0",
+  "description": "Add or change a feature in the training to-do app end to end: pure logic in todos.js, tests, UI in app.js, and a browser check.",
+  "author": {
+    "name": "Responsetrain14"
+  },
+  "keywords": ["skill", "todo-app", "training"]
+}
